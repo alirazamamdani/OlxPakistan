@@ -1,19 +1,18 @@
 import React,  {Component} from 'react';
-import './css/Header.css'
+import './css/Home.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 
-class Header extends Component{
+class Home extends Component{
     render() {
         return(
           <div className="home-page">
-            
+
           </div>    
-        
       )
     } 
     
  }
 
- export default Header;
+ export default Home;
