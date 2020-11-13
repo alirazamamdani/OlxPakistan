@@ -1,18 +1,12 @@
-import React,  {Component} from 'react';
-import './css/Home.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React from 'react';
 
 
-
-class Home extends Component{
-    render() {
+function Home(){
         return(
           <div className="home-page">
 
           </div>    
       )
     } 
-    
- }
 
  export default Home;

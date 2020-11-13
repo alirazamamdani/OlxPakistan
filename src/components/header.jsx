@@ -1,36 +1,37 @@
-import React,  {Component} from 'react';
-<<<<<<< HEAD
-import './css/Header.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-=======
-import './css/header.css'
-import FontAwesomeIcon from 'react-fontawesome'
-import OlxLogo from '../images/olx-logo-vector.png';
-// import '../node_modules/font-awesome/css/font-awesome.min.css'; 
->>>>>>> 7d73d300f988891dbd5a58ad38632bbe73be9d44
+import Logo from '../ui/olx-logo-vector.svg';
 
-
-class Header extends Component{
-    render() {
-        return(
-<<<<<<< HEAD
-          <div className="home-page">
-            
-          </div>    
-=======
-            <div className="head-container">
-                <div className="head">
-                    <img src={OlxLogo} className="logo" alt="olx-logo"/>
-                    <FontAwesomeIcon icon={"fas-fa-search"}></FontAwesomeIcon>
-                    <input type="text"/>
-                </div>
+function Header() {
+    return(
+        <div className="header fixed flex aic">
+            <div className="logo">
+            <img src={Logo} alt="Olx Logo"/>
             </div>
->>>>>>> 7d73d300f988891dbd5a58ad38632bbe73be9d44
+            <div className="location">
+                <div className="icon-search ico" />
+                <input className="label s16 font" placeholder="Your Location" value="Pakistan"/>
+                <button className="icon-chevron-down arrow"> </button>
+                </div>
+            <div className="search flex aic">
+                <input type="text" placeholder="Find Cars, Mobile phones and more...." className="query"/>
+                <button className="icon-search go"> </button>
+            </div>
+            <div className="actions flex aic">
+                <Link to="/account/signin" className="fontb s16 noul">Sign in</Link>
+                <button className="sell">
+                    <div className="icon-plus" />
+                    <h2 className="s16 font">Sell</h2>
+                        
+                </button>
+            
+            </div>
+
+            </div>
         
-      )
-    } 
-    
- }
+    )
+}
+
 
  export default Header;
