@@ -125,28 +125,65 @@
 }
 .home-page {
     padding: 30px 18%;
+}
+.ad-list {
+    
     flex-wrap: wrap;
 }
 .ad-item{
-    min-width: 288px;
+    min-width: 270px;
     min-height: 266px;
-    max-width: 288px;
+    max-width: 270px;
     max-height: 266px;
-    flex-basis: 25%;
-    margin: 6px;
+    flex-basis: 20%;
+    margin: 8px;
+    border: 1px #ddd solid;
+    padding: 10px;
 }
 .ad-item .poster{
     height: 160px;
 }
 .ad-item .poster.placeholder{}
 .ad-item .title{
-    height: 20px;
+    margin: 10px 0;
 }
-.ad-item .title.placeholder{}
-.ad-item .tagline{}
-.ad-item .tagline.placeholder{}
-.ad-item .ftr{}
-.ad-item .ftr .location{}
-.ad-item .ftr .location.placeholder{}
-.ad-item .ftr .stamp{}
-.ad-item .ftr .stamp.placeholder{}
+.ad-item .title.placeholder{
+    height: 25px;
+    width: 75%;
+}
+.ad-item .tagline{
+
+}
+.ad-item .tagline.placeholder{
+    height: 20px;
+    width: 90%;
+}
+.ad-item .ftr{margin-top: 10px;}
+.ad-item .ftr .location{
+    flex: 2;
+}
+.ad-item .ftr .location.placeholder{
+    
+    height: 12px;
+    width: 100px;
+}
+.ad-item .ftr .stamp{
+    flex: 1;
+}
+.ad-item .ftr .stamp.placeholder{
+    height: 0px;
+}
+.load-more {
+    margin: 40px auto;
+    display: table;
+    border: 0;
+    background: #fff;
+    padding: 0 25px;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 0px 5px #012f34;
+    color: #012f34;
+}
+.load-more:hover {
+    box-shadow: inset -1px -1px 0px 30px #012f34;
+    color: #fff;
+}
