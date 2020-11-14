@@ -37,5 +37,17 @@ i.bl{display: inline-block;}
 .noul {text-decoration: none;}
 .noulh{text-decoration: underline;}
 .cfff{color: #ffffff;}
-input , textarea {outline: none;}
+input , textarea , button {outline: none;}
 button {cursor: pointer;}
+
+.placeholder{
+    background: #ccc;
+    animation: placeholder 1s infinite ease-in-out;
+}
+    @keyframes placeholder {
+        0%{opacity: 0.5;}
+        100%{opacity: 1;}
+    }
+.anim {
+    transition: all 0.2s linear 0s;
+}

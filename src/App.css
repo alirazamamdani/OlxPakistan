@@ -116,8 +116,37 @@
 .hnav a {
     padding: 15px;
     margin-right: 2px;
-   
 }
 .hnav a:hover {
     text-decoration: underline;
 }
+.hclr {
+    height: 120px;
+}
+.home-page {
+    padding: 30px 18%;
+    flex-wrap: wrap;
+}
+.ad-item{
+    min-width: 288px;
+    min-height: 266px;
+    max-width: 288px;
+    max-height: 266px;
+    flex-basis: 25%;
+    margin: 6px;
+}
+.ad-item .poster{
+    height: 160px;
+}
+.ad-item .poster.placeholder{}
+.ad-item .title{
+    height: 20px;
+}
+.ad-item .title.placeholder{}
+.ad-item .tagline{}
+.ad-item .tagline.placeholder{}
+.ad-item .ftr{}
+.ad-item .ftr .location{}
+.ad-item .ftr .location.placeholder{}
+.ad-item .ftr .stamp{}
+.ad-item .ftr .stamp.placeholder{}

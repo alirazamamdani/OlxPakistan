@@ -48,13 +48,13 @@ function Header() {
             {
                 nav.map(item => {
                     return(
-                    <Link to={"/browser/" + item.ID} className="noul  color font s16">{item.label}</Link>
+                    <Link to={"/browser/" + item.ID} className="noul color font s16">{item.label}</Link>
                     )
                 })
             }
             
             </div>
-
+            <div className="hclr"></div>
             
             </React.Fragment>
         
