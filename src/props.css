@@ -7,6 +7,8 @@ h1, h2, h3 , h4 , h5 , h6 {margin:0px; padding:0px;font-weight: normal;}
 .abs { position: absolute;}
 .sticky {position: sticky;}
 .flex {display: flex;}
+.bl{display: block;}
+i.bl{display: inline-block;}
 .aic {align-items: center;}
 
 .font {
@@ -34,3 +36,6 @@ h1, h2, h3 , h4 , h5 , h6 {margin:0px; padding:0px;font-weight: normal;}
 
 .noul {text-decoration: none;}
 .noulh{text-decoration: underline;}
+.cfff{color: #ffffff;}
+input , textarea {outline: none;}
+button {cursor: pointer;}
