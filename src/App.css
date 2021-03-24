@@ -59,8 +59,9 @@
     background: #002f34;
     max-width: 50px;
 }
-.icon-search {
+.faSearch {
     font-weight: 500;
+    font-size: 32px;
 }
 .header .gohover{}
 
